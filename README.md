@@ -11,10 +11,12 @@
 ## 需要环境
 * npm 6.0.0 or above
 * NodeJS 10.0.0 or above
-* 或者：pm2
 
 ## 安装
-克隆项目以后，进入项目目录，执行命令：npm install（执行该命令后将自动下载并安装所需依赖包）
+*安装Node环境，进入Node官网下载安装即可：https://nodejs.org/en/ （由于现在node已自带npm,无需单独安装）
+ 安装完成后使用npm -v验证即可
+*克隆项目,进入项目目录，执行命令安装相关依赖包：npm install
+*安装完毕
 
 ## 用法
 进入项目目录，执行: node sniper-bot.js <参数>   ( pm2使用方法可参考pm2相关命令）
@@ -36,9 +38,12 @@
 * name - 默认为空，可用于区分竞购不同的加密货币Token
 
 #### 例子:
-* 使用Node: 
+* BSC测试链环境下竞购：
+
+  node sniper-bot.js node=https://data-seed-prebsc-1-s1.binance.org:8545 presaleContractAddress=合约地址 buyingBnbAmount=BNB数量 senderPrivateKey=个人钱包KEY createLogs=true
+
+* BSC链环境下竞购: 
   
-  node sniper-bot.js presaleContractAddress=0xab5801a7d398351b8be11c439e05c5b3259aec9b buyingBnbAmount=0.5 senderPrivateKey=0x8da4ef21b864d2cc526dbdb2a120bd2874c36c9d0a1fb7f8c63d7f7a8b41de8f createLogs=true
+  node sniper-bot.js node=https://bsc-dataseed.binance.org/ presaleContractAddress=合约地址 buyingBnbAmount=BNB数量 senderPrivateKey=个人钱包KEY createLogs=true
   
-* 使用PM2:  
-  pm2 start sniper-bot.js -- presaleContractAddress=0xab5801a7d398351b8be11c439e05c5b3259aec9b buyingBnbAmount=0.5 senderPrivateKey=0x8da4ef21b864d2cc526dbdb2a120bd2874c36c9d0a1fb7f8c63d7f7a8b41de8f createLogs=true
+
