@@ -9,8 +9,8 @@
 * 支持毫秒级竞购
 
 ## 需要环境
-* npm 6.0.0 or above
-* NodeJS 10.0.0 or above
+* npm 6.0.0 及以上
+* NodeJS 10.0.0 及以上
 
 ## 安装
 * 安装Node环境，进入Node官网下载安装即可：https://nodejs.org/en/ 
