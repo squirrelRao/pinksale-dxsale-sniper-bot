@@ -1,6 +1,3 @@
-![alt text](https://github.com/mnedelchev-vn/pinksale-dxsale-sniper-bot/blob/master/assets/images/pinksale-logo.png)
-![alt text](https://github.com/mnedelchev-vn/pinksale-dxsale-sniper-bot/blob/master/assets/images/dxsale-logo-shadow.png)
-
 # Pinksale & DxSale sniper bot
 
 ## Purpose
