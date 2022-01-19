@@ -4,7 +4,7 @@
 实现基于Pinksale 或 DxSale 发布平台上预售加密货币的竞购
 
 ## 
-* 可设定相关参数如： gas price, gas limit, etc
+* 可设定相关参数如： 链节点, 时间周期，gas price, gas limit等
 * 支持竞购多个交易地址
 * 支持毫秒级竞购
 
