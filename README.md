@@ -29,7 +29,7 @@
   支持多个钱包竞购，当有多个钱包时，privateKey之间使用逗号分隔，  senderPrivateKey=0x8da4ef21b864d2cc526dbdb2a120bd2874c36c9d0a1fb7f8c63d7f7a8b41de8f,0x3da3ef21b123d2cc526dbdb2a120bd2874c36c9d0a1fb7f8c63d7f7a8b42de8E
 
 #### 可选参数
-* node - 竞购项目所处的区块链节点，默认为标准的BSC节点，该节点用以提供交易加签等服务，也可以是自己搭建通过Geth的RPC节点中断服务（类似：https://localhsot:8458)
+* node - 竞购项目所处的区块链节点，默认为标准的BSC节点，该节点用以提供交易加签等服务，也可以是自己搭建Geth的RPC节点服务（类似：https://localhsot:8458)
 * gasLimit - 在交易中愿意消耗的最大gas,默认是:500000.
 * gasPrice - 交易中Gas的Gwei价格, 默认是:10 Gwei.
 * createLogs - 如果未true,将日志记录到./logs 目录里
