@@ -37,6 +37,7 @@
 
 #### 例子:
 * 使用Node: 
+  
   node sniper-bot.js presaleContractAddress=0xab5801a7d398351b8be11c439e05c5b3259aec9b buyingBnbAmount=0.5 senderPrivateKey=0x8da4ef21b864d2cc526dbdb2a120bd2874c36c9d0a1fb7f8c63d7f7a8b41de8f createLogs=true
   
 * 使用PM2:  
