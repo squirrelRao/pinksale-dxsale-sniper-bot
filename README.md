@@ -46,4 +46,8 @@
   
   node sniper-bot.js node=https://bsc-dataseed.binance.org/ presaleContractAddress=合约地址 buyingBnbAmount=BNB数量 senderPrivateKey=个人钱包KEY createLogs=true
   
+* demo: 
+
+  node sniper-bot.js node=https://data-seed-prebsc-1-s1.binance.org:8545 presaleContractAddress=0xab5801a7d398351b8be11c439e05c5b3259aec9b buyingBnbAmount=0.5 senderPrivateKey=0x8da4ef21b864d2cc526dbdb2a120bd2874c36c9d0a1fb7f8c63d7f7a8b41de8f createLogs=true
+  
 
