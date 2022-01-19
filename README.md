@@ -13,10 +13,10 @@
 * NodeJS 10.0.0 or above
 
 ## 安装
-*安装Node环境，进入Node官网下载安装即可：https://nodejs.org/en/ 
-（由于现在node已自带npm,无需单独安装）,安装完成后使用npm -v验证即可
-*克隆项目,进入项目目录，执行命令安装相关依赖包：npm install
-*安装完毕
+* 安装Node环境，进入Node官网下载安装即可：https://nodejs.org/en/ 
+ （由于现在node已自带npm,无需单独安装）,安装完成后使用npm -v验证即可
+* 克隆项目,进入项目目录，执行命令安装相关依赖包：npm install
+* 安装完毕
 
 ## 用法
 进入项目目录，执行: node sniper-bot.js <参数>   ( pm2使用方法可参考pm2相关命令）
